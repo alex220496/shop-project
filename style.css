@@ -3,6 +3,9 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url(img/patt.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: 10px 40px; */
 }
 
 h1{
@@ -22,19 +25,55 @@ h1{
     margin-right: -15px;
 }
 
+.row:after { 
+    content: " ";
+    display: block; 
+    clear: both;
+}
+
 [class*="coll-"] {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
 }
-.col-md-3{
+
+.coll-md-3{
     width: 25%;
 }
-.col-md-6{
+
+.coll-md-6{
     width: 50%;
 }
-.row:after { 
-    content: " ";
-    display: block; 
-    clear: both;
+
+.header{
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.logo{
+margin-top: 7px;
+}
+
+.menu li{
+    width: 25%;
+    float: left;
+}
+
+.menu li:last-child {
+    border-right: 1px solid #2c71b8;
+}
+
+.menu a{
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 21px;
+    color: #2c71b8;
+}
+
+.menu:hover{
+
 }
