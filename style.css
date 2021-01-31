@@ -82,19 +82,35 @@ margin-top: 7px;
 .col-md-9 {
     width: 75%;
 }
-.form-search {
-    border: 1px solid #2c71b8;
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    
+.search {
+    position: relative;
+    top: -6px;
+    left: 5px;
+    line-height: 30px;
+    width: 160px;
+    height: 30px;
 }
 .button {
-    background-image: url(img/search.png);
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: -5px;
     width: 30px;
     height: 30px;
-    background-color: #2c71b8 ;
-    background-repeat: no-repeat;
-    height: 30px;
-    text-align: center;
+    background-image: url(img/search.png);
+    
 }
+.form-search{
+    display: block;
+    border: 1px solid #2c71b8;
+    float: left;
+}
+.search {
+    border: none;
+    outline: none;
+    background: none;
+    
+}
+
+
+
