@@ -113,7 +113,9 @@ margin-top: 7px;
     background-color: white;
     color: #2c71b8 ;
 } 
-
+.sub__menu> li:hover>span {
+    display: block;
+}
 /* ------------------ */
 /* Search */
 .form-search{
@@ -132,3 +134,7 @@ margin-top: 7px;
     display: none;
 }
 
+.menu img{
+    position: relative;
+    left: 5px;
+}
