@@ -143,6 +143,7 @@ margin-top: 7px;
     margin-top: 4px;
     width: 30px;
     height: 30px;
+    border: none;
     background-image: url(img/search.png);
     background-position: center;
     background-repeat: no-repeat;
