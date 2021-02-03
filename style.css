@@ -121,14 +121,34 @@ margin-top: 7px;
 .form-search{
     display: block;
     border: 1px solid #2c71b8;
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }
 .search {
-    border: none;
+    position: relative;
+    top: -11px;
+    width: 150px;
+    height: 30px;
+    border: none; 
     outline: none;
     background: none;
 }
 /* ------------------- */
+/* button */
 
+.button {
+    margin-top: 4px;
+    width: 30px;
+    height: 30px;
+    background-image: url(img/search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#2c71b8 ;
+}
+/* ------------------- */
 .sub__menu {
     position: absolute;
     display: none;
