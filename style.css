@@ -12,6 +12,7 @@ h1{
     color: blueviolet;
     background-color: black;
 }
+/* Container */
 .container{
     width: 1200px;
     margin-left: auto;
@@ -19,13 +20,31 @@ h1{
     padding-left: 15px;
     padding-right: 15px;
 }
+.container2{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
+/* --------------- */
 .row {
     margin-left: -15px;
     margin-right: -15px;
 }
 
 .row:after { 
+    content: " ";
+    display: block; 
+    clear: both;
+}
+.menu:after{
     content: " ";
     display: block; 
     clear: both;
@@ -37,6 +56,11 @@ h1{
     padding-right: 15px;
 }
 [class*="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+[class*="block-"] {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
@@ -57,11 +81,12 @@ h1{
     width: 25%;
 }
 /* -------------------- */
+/* Header */
 .header{
     padding: 25px 0;
     background-color: rgba(255, 255, 255, 0.75);
 }
-
+/* --------------------- */
 .logo{
 margin-top: 7px;
 }
@@ -167,12 +192,53 @@ margin-top: 7px;
     height: 40px;
     background-color: white;
     background-position: center;
+    position: relative;
 }
 .cart:hover {
     background-image: url(img/icon\ \(2\).png);
     background-color: #2c71b8;
 }
 .product-count {
+    position: absolute;
     border: 1px solid #2c71b8 ;
-    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2c71b8;
+    top: -12px;
+    left: -11px;
+    color: #fff;
+    display: block;
+    line-height: 18px;
+    font-size: 10px;
+}
+
+/* -------Main-------- */
+.block-1, .block-2, .block-3, .block-4 {
+    width: 25%;
+}
+.line1 {
+    display: block;
+    background-color: #fff;
+    width: 270px;
+    height: 180px;
+    text-align: center;
+    line-height: 250px;
+}
+.line2 {
+    display: block;
+    background-color: #fff;
+    width: 270px;
+    height: 180px;
+    text-align: center;
+    line-height: 250px;
+}
+.line3 {
+    display: block;
+    background-color: #fff;
+    width: 270px;
+    height: 180px;
+    text-align: center;
+    line-height: 250px;
 }
