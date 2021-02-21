@@ -110,6 +110,7 @@ margin-top: 7px;
     line-height: 20px;
     font-weight: 100;
     font-size: 21px;
+    z-index: 10;
 }
 /* ----------------- */
 /* Hover */
@@ -197,11 +198,11 @@ margin-top: 7px;
     border-radius: 50%;
     text-align: center;
     background-color: #2c71b8;
-    top: -12px;
-    left: -11px;
+    top: -10px;
+    left: -10px;
     color: #fff;
     display: block;
-    line-height: 18px;
+    line-height: 20px;
     font-size: 10px;
 }
 
@@ -246,4 +247,36 @@ margin-top: 7px;
     background-color: #568dc6;
     border: none;
     
+}
+/* filter */
+.filter__color{
+ padding: 30px 5px 30px 5px; 
+ 
+}
+.filter__ram{
+    margin: 30px 0 30px 0; 
+}
+.filter__devicetipe{
+    margin: 30px 0 30px 0; 
+    
+}
+.filter h2 {
+    font-size: 24px;
+    color: #fff;
+}
+.checkbox label:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+}
+.checkbox input[type="checkbox"]{
+    display: none;
+}
+.checkbox input[type="checkbox"]:checked + label::before {
+    background-color: #fff;
+}
+.checkbox {
+    padding: 15px 10px 15px 30px;
 }
