@@ -8,10 +8,7 @@ body{
     /* background-position: 10px 40px; */
 }
 
-h1{
-    color: blueviolet;
-    background-color: black;
-}
+
 /* Container */
 .container{
     width: 1200px;
@@ -192,7 +189,6 @@ margin-top: 7px;
 }
 .product-count {
     position: absolute;
-    border: 1px solid #2c71b8 ;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -203,7 +199,7 @@ margin-top: 7px;
     color: #fff;
     display: block;
     line-height: 20px;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 /* -------Main-------- */
@@ -225,9 +221,9 @@ margin-top: 7px;
 }
 .product { 
     position: relative;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: 270px;
-    margin: 15px;
+    margin: 0 0 30px 0;
     padding: 0 0 30px 0;
 }
 .bth {
