@@ -273,6 +273,23 @@ margin-top: 7px;
 .checkbox input[type="checkbox"]:checked + label::before {
     background-color: #fff;
 }
-.checkbox {
-    padding: 15px 10px 15px 30px;
+.checkbox, .checkh2 {
+    padding: 13px 10px 13px 30px;
+}
+
+.checkbox label{
+    position: relative;
+   
+
+}
+.checkbox .labl  {
+    font-size: 21px;
+    position: absolute;
+    top: -6px;
+    left: 25px;
+    float: right;
+    color: #fff;
+}
+.filter{
+    font-family: 'Roboto', sans-serif;
 }
