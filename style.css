@@ -133,9 +133,10 @@ margin-top: 7px;
 /* ------------------ */
 /* Search */
 .form-search{
+    position: relative;
+    top: 5px;
     display: block;
     border: 1px solid #2c71b8;
-    float: left;
     width: 200px;
     height: 40px;
     line-height: 40px;
@@ -182,6 +183,7 @@ margin-top: 7px;
     background-color: white;
     background-position: center;
     position: relative;
+    top: 4px;
 }
 .cart:hover {
     background-image: url(img/icon\ \(2\).png);
