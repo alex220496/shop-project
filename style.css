@@ -234,6 +234,8 @@ margin-top: 7px;
     font-family: "Roboto";
     line-height: 25px;
     padding: 15px 0 15px 10px;
+    background-color: rgba(44, 113, 184, 0.75);
+    
 }
 .product-description p{
     padding: 10px 15px 10px 10px;
