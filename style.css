@@ -325,7 +325,7 @@ margin-top: 7px;
     width: 30px;
     height: 30px;
     padding: 5px; 
-    background-color: #cadbed;
+    background-color: var(--accent-color);
     outline: none;
     border: 1px solid #2c71b8;
     margin: 10px;
