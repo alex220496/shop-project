@@ -224,6 +224,19 @@ margin-top: 7px;
     color: #fff;
     text-align: center;
     margin: 5px;
+    text-transform: uppercase;
+}
+.product-description{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    line-height: 25px;
+    padding: 15px 0 15px 10px;
+}
+.product-description p{
+    padding: 10px 15px 10px 10px;
 }
 .product-img {
     position: relative;
@@ -240,6 +253,7 @@ margin-top: 7px;
     margin: 0 0 30px 0;
     padding: 0 0 30px 0;
 }
+ 
 .bth {
     outline: none;
     background-color: #2c71b8;
