@@ -57,6 +57,13 @@ modal.addEventListener("click",function(e) {
     }
 });
 
+function showModalByScroll () {
+    if (window.pageYOffset > document.body.scrollHeight/2){
+        openModal ();
+        window.removeEventListener("scroll", showModalByScroll)
+    }
+}
+window.addEventListener("scroll", showModalByScroll)
 
 
 
